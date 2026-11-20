@@ -1,11 +1,9 @@
 # Optix Privacy Policy
 
-
 **Last updated:** 20 November 2026  
 **App version:** 1.4.3  
 **Developer:** OnenStudioo  
 **Contact:** onenstudioo@gmail.com
-
 
 Optix is an Android privacy helper that uses the front camera to alert you when more than one face is present in the camera view. Optix counts faces; it does not recognize or identify people, perform biometric authentication, measure eye movement, or determine whether someone is looking at your screen. A detection is not proof that another person can see your screen, and detections may be inaccurate or incomplete.
 
@@ -96,6 +94,3 @@ This policy may be updated if Optix features, permissions, or data practices cha
 ## 13. Contact
 
 Privacy questions or requests: **onenstudioo@gmail.com**
-
----
-This document describes Optix's current features and data practices. Store disclosures and the published app release should be kept consistent with this policy.

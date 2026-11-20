@@ -57,7 +57,6 @@ Etkinlik tanıma, Google Play Hizmetleri tarafından sağlanır. Google'ın bu h
 
 Optix Android'de aşağıdaki izinleri/servis yeteneklerini kullanabilir:
 
-
 - **Kamera:** Kullanıcı korumayı başlattığında ön kameradan görüntü alıp cihazda yüz saymak.
 - **Bildirimler:** Koruma hizmeti, uyarılar ve isteğe bağlı seyahat önerisini bildirmek (Android 13 ve sonrası izin isteyebilir).
 - **Kamera türü ön plan hizmeti:** Koruma açıkken kamera kullanımını görünür biçimde sürdürmek.
@@ -95,7 +94,3 @@ Optix'in işlevleri, kullanılan izinler veya veri işleme uygulamaları değiş
 ## 13. İletişim
 
 Gizlilikle ilgili soru veya talepler: **onenstudioo@gmail.com**
-
----
-
-Bu metin Optix'in mevcut işlevleri ve uygulama içindeki veri işleme davranışı hakkında bilgi vermek için hazırlanmıştır. Mağaza beyanları ve yayımlanan uygulama sürümü, bu metinle tutarlı tutulmalıdır.
