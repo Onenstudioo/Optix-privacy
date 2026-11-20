@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Optix uygulaması için güncel gizlilik politikası. Kamera görüntüleri cihaz üzerinde analiz edilir ve Optix tarafından sunucuya gönderilmez.">
+<title>Optix · Gizlilik / Privacy</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1118;--card:#121c27;--text:#edf3fa;--muted:#a7b6c7;--line:#253445;--accent:#74d6c2;}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{max-width:900px;margin:auto;padding:36px 22px 18px}.brand{font-size:14px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:700}h1{font-size:clamp(28px,5vw,42px);line-height:1.15;margin:12px 0}.intro{color:var(--muted);max-width:720px}.switch{display:flex;gap:8px;margin:20px 0 0}button{background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:10px;padding:10px 16px;font:inherit;cursor:pointer}button[aria-pressed="true"]{background:var(--accent);color:#081612;border-color:var(--accent);font-weight:700}main{max-width:900px;margin:0 auto 40px;padding:0 22px}article{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:clamp(18px,4vw,34px)}h2{font-size:21px;margin:30px 0 10px;line-height:1.3}h1{margin-top:0}p{margin:10px 0}ul{padding-left:24px}li{margin:7px 0}a{color:var(--accent);overflow-wrap:anywhere}hr{border:0;border-top:1px solid var(--line);margin:26px 0}.meta{color:var(--muted)}footer{max-width:900px;margin:auto;padding:0 22px 40px;color:var(--muted);font-size:13px}.policy{display:none}.policy.active{display:block}@media(max-width:600px){header{padding-top:24px}article{border-radius:12px}}
+</style>
+</head>
+<body>
+<header><div class="brand">Optix Privacy</div><h1>Gizlilik, açık ve anlaşılır.</h1><p class="intro">Optix'in kamera kullanımı, cihaz içi işleme, yerel kayıtlar, izinler ve üçüncü taraf hizmetleri hakkında güncel bilgiler.</p><div class="switch" role="group" aria-label="Language"><button id="trBtn" aria-pressed="true" onclick="setLang('tr')">Türkçe</button><button id="enBtn" aria-pressed="false" onclick="setLang('en')">English</button></div></header>
+<main><article><section id="tr" class="policy active"><h1>Optix Gizlilik Politikası</h1>
+<p><strong>Son güncelleme:</strong> 20 Kasım 2026</p>
+<p><strong>Uygulama sürümü:</strong> 1.4.3</p>
+<p><strong>Geliştirici:</strong> OnenStudioo</p>
+<p><strong>İletişim:</strong> onenstudioo@gmail.com</p>
+<p>Optix, Android telefonlarda ön kamerayı kullanarak kamera görüntüsünde birden fazla yüz bulunduğunda kullanıcıya uyarı vermek için tasarlanmış bir ekran gizliliği yardımcı uygulamasıdır. Optix yüz sayar; kişileri tanımaz veya kimliklerini belirlemez, biyometrik kimlik doğrulama yapmaz, göz hareketlerini ya da bir kişinin ekrana bakıp bakmadığını ölçmez. Algılama sonucu, başka bir kişinin ekranınızı gördüğünün kesin kanıtı değildir ve yanlış/eksik algılama olabilir.</p>
+<h2>1. Kısa özet</h2>
+<ul>
+<li>Kamera kareleri Optix tarafından cihaz üzerinde analiz edilir; Optix bunları fotoğraf veya video olarak kaydetmez, kendi sunucularına yüklemez ve paylaşmaz.</li>
+<li>Optix&#x27;in hesap, reklam, profil oluşturma veya kendi analitik/izleme sistemi bulunmaz.</li>
+<li>Optix konum, mikrofon, rehber veya dosya/depolama erişimi talep etmez.</li>
+<li>İstatistikler ve uygulama tercihleri cihazda, uygulamaya özel yerel alanda saklanır.</li>
+<li>Kamera koruması kullanıcı tarafından başlatılır. Telefon açıldığında veya uygulama açılır açılmaz kamera kendiliğinden başlatılmaz.</li>
+</ul>
+<h2>2. Kamera ve yüz algılama</h2>
+<p>Kamera izni, ön kameradan görüntü almak ve yüz sayısını belirlemek amacıyla kullanılır. Koruma başlatıldığında kamera, görünür Android kamera göstergesi ve Optix&#x27;in devam eden bildirimini içeren kamera türündeki ön plan hizmeti üzerinden çalışabilir; böylece koruma başka uygulamalara geçildiğinde de devam edebilir. Kullanıcı korumayı uygulamadan veya hizmet bildiriminden durdurabilir.</p>
+<p>Görüntüler CameraX ve Google ML Kit yüz algılama bileşenleriyle cihazda, analiz için gereken süre boyunca bellekte işlenir. Optix görüntüleri dosyaya kaydetmez, yüz görüntüsü/şablonu/kimliği oluşturup saklamaz ve görüntüleri kendi sunucusuna iletmez. Telefon kilitlendiğinde kamera koruması askıya alınır ve kamera serbest bırakılır. Kamera izninin kaldırılması, kamera gizlilik anahtarının kapalı olması, kameranın başka uygulaca kullanılması veya Android&#x27;in hizmeti durdurması analiz akışını kesebilir.</p>
+<p>Optix yüz algılama sonuçlarını yalnızca koruma ve uyarı mantığı için kullanır. Yüz sayımı her koşulda doğru olmayabilir; uzak, kısmen görünür, hareketli, düşük ışıklı veya kameraya dönük olmayan yüzler algılanmayabilir. Uyarı, ekrana bakan bir kişinin varlığını veya gizliliğin ihlal edildiğini kesin olarak göstermez.</p>
+<h2>3. Adaptif tarama</h2>
+<p>Adaptif tarama açıkken Optix, cihaz üzerinde o an algılanan yüz sayısına göre analiz sıklığını ayarlayabilir. Bu karar için Optix pil durumunu okumaz. Anlık yüz sayısı analiz sürecinde kullanılır; bir yüz profili veya geçmişi oluşturmak için kaydedilmez ve Optix tarafından gönderilmez.</p>
+<h2>4. Cihazda saklanan bilgiler</h2>
+<p>Optix&#x27;in yerel istatistik özelliği aşağıdaki sınırlı bilgileri saklayabilir:</p>
+<ul>
+<li>ikinci yüz uyarılarının toplam ve gün bazında sayısı,</li>
+<li>koruma oturumu sayısı ve toplam koruma süresi,</li>
+<li>son uyarının zamanı,</li>
+<li>uygulama tercihleri (dil, uyarı sesi, ses açık/kapalı, titreşim ve deseni, algılama seçenekleri, adaptif tarama ve seyahat önerisi tercihi gibi),</li>
+<li>seyahat önerisi özelliği açıksa bu tercihin durumu ve önerinin son gösterim zamanı.</li>
+</ul>
+<p>Bu kayıtlar uygulamanın yerel, uygulamaya özel saklama alanında tutulur; Optix&#x27;in sunucusuna gönderilmez. Kamera görüntüleri, yüz görüntüleri, yüz şablonları, kimlik bilgileri, konum veya seyahat rotası geçmişi bu istatistikler kapsamında tutulmaz.</p>
+<p><strong>Silme:</strong> İstatistikler ekranındaki <strong>İstatistikleri sıfırla</strong> işlemi istatistik kayıtlarını siler/sıfırlar; uygulama tercihlerini sıfırlama anlamına gelmez. Uygulamanın tüm yerel verilerini kaldırmak için Android sistem ayarlarından Optix&#x27;in uygulama verilerini temizleyebilir veya uygulamayı kaldırabilirsiniz.</p>
+<h2>5. Bildirimler ve Hızlı Ayarlar</h2>
+<p>Optix koruma sırasında devam eden hizmet bildirimi, ikinci yüz uyarısı ve seyahat önerisi özelliği etkinleştirilmişse öneri bildirimi gösterebilir. Bildirim içeriği seçtiğiniz uyarı görünürlüğü ayarına göre azaltılabilir. Android bildirim izni ve bildirim kanalı ayarları bu davranışı etkiler.</p>
+<p>Android Hızlı Ayarlar panelindeki Optix kutucuğu korumayı başlatma/durdurma kısayoludur. Kutucuk, koruma durumunu yönetmek için kullanılır; ek bir profil veya veri toplama işlevi değildir.</p>
+<h2>6. “Yola çıkınca öner” özelliği (isteğe bağlı)</h2>
+<p>Bu özellik varsayılan olarak kapalıdır. Kullanıcı açtığında Optix, araçta olma/geçiş durumunu anlamak için Google Play Hizmetleri&#x27;nin Activity Recognition (etkinlik tanıma) özelliğini kullanır ve Android sürümüne bağlı olarak <strong>Fiziksel etkinlik</strong> izni ister. Algılanan araç hareketi bir öneri bildirimi göstermek için kullanılır; Optix korumayı otomatik başlatmaz. Konum izni istenmez. Optix hareket, araç veya yolculuk geçmişi tutmaz; özellik tercihini ve önerinin son gösterim zamanını yerel olarak saklayabilir. Özellik Ayarlar&#x27;dan kapatılabilir ve izin Android ayarlarından geri alınabilir. Telefon yeniden başlatıldığında veya uygulama güncellendiğinde, özellik açıksa etkinlik tanıma aboneliği yenilenebilir; bu, kameranın açılışta başlatıldığı anlamına gelmez.</p>
+<p>Etkinlik tanıma, Google Play Hizmetleri tarafından sağlanır. Google&#x27;ın bu hizmetle ilgili veri işlemesi Google&#x27;ın kendi politika ve açıklamalarına tabidir.</p>
+<h2>7. İzinler</h2>
+<p>Optix Android&#x27;de aşağıdaki izinleri/servis yeteneklerini kullanabilir:</p>
+<ul>
+<li>**Kamera:** Kullanıcı korumayı başlattığında ön kameradan görüntü alıp cihazda yüz saymak.</li>
+<li>**Bildirimler:** Koruma hizmeti, uyarılar ve isteğe bağlı seyahat önerisini bildirmek (Android 13 ve sonrası izin isteyebilir).</li>
+<li>**Kamera türü ön plan hizmeti:** Koruma açıkken kamera kullanımını görünür biçimde sürdürmek.</li>
+<li>**Titreşim:** Kullanıcı etkinleştirmişse uyarı titreşimi vermek.</li>
+<li>**Fiziksel etkinlik / etkinlik tanıma:** Yalnızca isteğe bağlı “Yola çıkınca öner” özelliği için.</li>
+<li>**Telefon açılışını algılama:** Yalnızca “Yola çıkınca öner” açıkken etkinlik tanıma aboneliğini yenilemek için; kamerayı başlatmak için kullanılmaz.</li>
+</ul>
+<p>Optix mikrofon, konum, kişiler veya dosya/depolama izni talep etmez. İzinler Android ayarlarından geri alınabilir; ilgili izin olmadan özellik çalışmayabilir.</p>
+<h2>8. Üçüncü taraf bileşenler ve hizmetler</h2>
+<p>Optix, yüz algılama için <strong>Google ML Kit</strong> ve isteğe bağlı hareket/etkinlik algılama için <strong>Google Play Hizmetleri</strong> kullanır. Yüz algılama modeli cihazda çalışır. Google&#x27;ın SDK ve hizmetleri, hizmetlerini sunmak, güvenilirlik ve performansı ölçmek veya teknik sorunları teşhis etmek için kendi kapsamlarında teknik bilgi/diagnostik verileri işleyebilir. Bu işlemler Optix&#x27;in kontrolünde değildir ve ilgili Google politikalarına tabidir. Optix kamera karelerini Google&#x27;a veya başka bir üçüncü tarafa göndermek amacıyla tasarlanmamıştır.</p>
+<ul>
+<li>Google Gizlilik Politikası: https://policies.google.com/privacy</li>
+<li>ML Kit Android veri açıklaması: https://developers.google.com/ml-kit/android-data-disclosure</li>
+</ul>
+<p>Optix&#x27;in kendi reklam ağı, analitik SDK&#x27;sı, kullanıcı hesabı, sunucusu veya veri broker entegrasyonu bulunmaz.</p>
+<h2>9. Veri paylaşımı, satış ve güvenlik</h2>
+<p>Optix kullanıcı verilerini satmaz veya reklam amacıyla profillemez. Optix tarafından oluşturulan yerel istatistikler ve tercihler üçüncü taraflara Optix tarafından aktarılmaz. Kamera verileri Optix tarafından ağ üzerinden iletilmez. Yerel veriler Android&#x27;in uygulama izolasyonu içinde saklanır; cihazınıza erişimi olan kişiler, cihaz güvenliği/işletim sistemi koşulları veya üçüncü taraf sistem bileşenleri bakımından mutlak güvenlik garantisi verilemez.</p>
+<h2>10. Saklama süresi</h2>
+<p>Optix&#x27;in kendi sunucularında kullanıcı verisi saklanmaz. Yerel istatistikler ve tercihler, siz sıfırlayana, uygulama verilerini temizleyene veya uygulamayı kaldırana kadar cihazda kalabilir. İstatistik sıfırlama işlemi tercihlerinizi silmez.</p>
+<h2>11. Çocukların gizliliği</h2>
+<p>Optix çocuklara özel tasarlanmamıştır ve çocuklardan bilerek kişisel bilgi toplamak amacı taşımaz.</p>
+<h2>12. Politika değişiklikleri</h2>
+<p>Optix&#x27;in işlevleri, kullanılan izinler veya veri işleme uygulamaları değişirse bu politika güncellenebilir. Güncel sürüm bu sayfada yayımlanır; güncelleme tarihi ve uygulama sürümü değiştirilir.</p>
+<h2>13. İletişim</h2>
+<p>Gizlilikle ilgili soru veya talepler: <strong>onenstudioo@gmail.com</strong></p>
+<hr>
+<p>Bu metin Optix&#x27;in mevcut işlevleri ve uygulama içindeki veri işleme davranışı hakkında bilgi vermek için hazırlanmıştır. Mağaza beyanları ve yayımlanan uygulama sürümü, bu metinle tutarlı tutulmalıdır.</p></section><section id="en" class="policy"><h1>Optix Privacy Policy</h1>
+<p><strong>Last updated:</strong> 20 November 2026</p>
+<p><strong>App version:</strong> 1.4.3</p>
+<p><strong>Developer:</strong> OnenStudioo</p>
+<p><strong>Contact:</strong> onenstudioo@gmail.com</p>
+<p>Optix is an Android privacy helper that uses the front camera to alert you when more than one face is present in the camera view. Optix counts faces; it does not recognize or identify people, perform biometric authentication, measure eye movement, or determine whether someone is looking at your screen. A detection is not proof that another person can see your screen, and detections may be inaccurate or incomplete.</p>
+<h2>1. At a glance</h2>
+<ul>
+<li>Optix analyzes camera frames on your device. It does not record them as photos or videos, upload them to its own servers, or share them.</li>
+<li>Optix has no account system, advertising, user profiling, or first-party analytics/tracking system.</li>
+<li>Optix does not request location, microphone, contacts, or file/storage access.</li>
+<li>Statistics and app preferences are stored locally in app-specific storage.</li>
+<li>Camera protection is started by the user. It does not start automatically when the phone boots or the app opens.</li>
+</ul>
+<h2>2. Camera and face detection</h2>
+<p>Camera permission is used to capture images from the front camera and count faces. When protection is started, the camera may run through a camera-type Android foreground service with the system camera indicator and Optix&#x27;s ongoing notification visible, allowing protection to continue while you switch apps. You can stop protection from the app or its notification.</p>
+<p>Frames are processed on-device, in memory for the time needed for analysis, using CameraX and Google ML Kit face detection. Optix does not save frames to files, create or store face images/templates/identities, or transmit camera frames to its own server. When the phone is locked, camera protection is suspended and the camera is released. Analysis may stop if camera permission is revoked, the camera privacy control is off, another app is using the camera, or Android stops the service.</p>
+<p>Optix uses face-detection results only for its protection and alert logic. Detection is not guaranteed: distant, partially visible, moving, poorly lit, or non-frontal faces may be missed. An alert cannot conclusively establish that someone is viewing your screen or that privacy has been compromised.</p>
+<h2>3. Adaptive scanning</h2>
+<p>When adaptive scanning is enabled, Optix may adjust the analysis frequency on-device based on the current face count. Optix does not read battery state for this decision. The current face count is used in the analysis process and is not stored to create a face profile or sent by Optix.</p>
+<h2>4. Information stored on the device</h2>
+<p>Optix may store the following limited information for its local Statistics feature:</p>
+<ul>
+<li>total and daily counts of second-face alerts,</li>
+<li>number of protection sessions and total protection time,</li>
+<li>time of the last alert,</li>
+<li>app preferences (such as language, alert sound and sound toggle, vibration and pattern, detection options, adaptive scanning and travel-suggestion preference),</li>
+<li>if travel suggestions are enabled, that preference and the time the last suggestion was shown.</li>
+</ul>
+<p>These records are stored in app-specific local storage and are not sent to Optix servers. Statistics do not include camera frames, face images, face templates, identity information, location, or trip-route history.</p>
+<p><strong>Deletion:</strong> The <strong>Reset statistics</strong> action on the Statistics screen resets statistics; it does not reset app preferences. To remove all local app data, clear Optix&#x27;s app storage in Android settings or uninstall the app.</p>
+<h2>5. Notifications and Quick Settings</h2>
+<p>Optix may show an ongoing service notification while protection is active, a second-face alert, and—if travel suggestions are enabled—a suggestion notification. Alert detail may be limited by the alert-visibility preference. Android notification permission and channel settings affect notification behavior.</p>
+<p>The Optix Quick Settings tile is a shortcut to start or stop protection. It manages protection state and is not a separate profiling or data-collection feature.</p>
+<h2>6. “Suggest when travelling” (optional)</h2>
+<p>This feature is off by default. If enabled, Optix uses Google Play services Activity Recognition to detect vehicle-related activity and may request Android&#x27;s <strong>Physical activity</strong> permission, depending on Android version. A detected vehicle transition is used to show a suggestion notification; Optix does not start protection automatically. Location permission is not requested. Optix does not keep movement, vehicle, or trip history; it may store the feature preference and the time the last suggestion was shown locally. You can disable the feature in Settings and revoke its permission in Android settings. If the feature is enabled, the activity-recognition subscription may be renewed after a device restart or app update; this does not start the camera at boot.</p>
+<p>Activity Recognition is provided by Google Play services. Google&#x27;s handling of data related to that service is subject to Google&#x27;s policies and disclosures.</p>
+<h2>7. Permissions</h2>
+<p>Optix may use these Android permissions or capabilities:</p>
+<ul>
+<li>**Camera:** Capture front-camera frames and count faces on-device after you start protection.</li>
+<li>**Notifications:** Show the protection service, alerts, and optional travel suggestions (may require permission on Android 13 and later).</li>
+<li>**Camera foreground service:** Keep camera use visible while protection is active.</li>
+<li>**Vibration:** Provide alert vibration when enabled.</li>
+<li>**Physical activity / Activity Recognition:** Only for the optional “Suggest when travelling” feature.</li>
+<li>**Boot completed receiver:** Renew the Activity Recognition subscription only when “Suggest when travelling” is enabled; it is not used to start the camera.</li>
+</ul>
+<p>Optix does not request microphone, location, contacts, or file/storage permissions. Permissions can be revoked in Android settings; the related feature may then be unavailable.</p>
+<h2>8. Third-party components and services</h2>
+<p>Optix uses <strong>Google ML Kit</strong> for face detection and <strong>Google Play services</strong> for optional activity recognition. Face detection runs on-device. Google SDKs and services may, within their own scope, process technical or diagnostic information to provide their services, measure reliability/performance, or troubleshoot issues. Such processing is outside Optix&#x27;s control and is governed by Google&#x27;s policies. Optix is not designed to send camera frames to Google or any other third party.</p>
+<ul>
+<li>Google Privacy Policy: https://policies.google.com/privacy</li>
+<li>ML Kit Android data disclosure: https://developers.google.com/ml-kit/android-data-disclosure</li>
+</ul>
+<p>Optix does not include its own advertising network, analytics SDK, account system, server, or data-broker integration.</p>
+<h2>9. Sharing, sale, and security</h2>
+<p>Optix does not sell user data or profile users for advertising. Optix does not transfer its local statistics or preferences to third parties. Optix does not transmit camera data over the network. Local data is held within Android app storage isolation; however, no absolute security guarantee can be made against device access, operating-system conditions, or third-party system components.</p>
+<h2>10. Retention</h2>
+<p>Optix does not retain user data on its own servers. Local statistics and preferences may remain on the device until you reset them, clear the app&#x27;s storage, or uninstall Optix. Resetting statistics does not delete preferences.</p>
+<h2>11. Children&#x27;s privacy</h2>
+<p>Optix is not designed specifically for children and is not intended to knowingly collect personal information from children.</p>
+<h2>12. Changes to this policy</h2>
+<p>This policy may be updated if Optix features, permissions, or data practices change. The current version will be published on this page with an updated date and app version.</p>
+<h2>13. Contact</h2>
+<p>Privacy questions or requests: <strong>onenstudioo@gmail.com</strong></p>
+<hr>
+<p>This document describes Optix&#x27;s current features and data practices. Store disclosures and the published app release should be kept consistent with this policy.</p></section></article></main>
+<footer>Optix · Version 1.4.3 · Last updated 20 November 2026</footer>
+<script>function setLang(lang){document.querySelectorAll('.policy').forEach(p=>p.classList.toggle('active',p.id===lang));document.getElementById('trBtn').setAttribute('aria-pressed',lang==='tr');document.getElementById('enBtn').setAttribute('aria-pressed',lang==='en');document.documentElement.lang=lang;}</script>
+</body></html>
